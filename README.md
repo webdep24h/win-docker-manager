@@ -10,7 +10,7 @@
 
 **Win-Docker Manager** là một bash script **all-in-one** giúp bạn cài đặt Windows trong container Docker trên Linux một cách **siêu nhanh, siêu nhẹ, siêu dễ**. Không cần dual-boot, không cần VirtualBox/VMware nặng nề - chỉ cần Docker và một trình duyệt web.
 
-Đặc biệt phù hợp cho ai cần chạy các phần mềm Windows-only như **UltraViewer, TeamViewer, AnyDesk, các app ngân hàng VN, phần mềm kế toán MISA/FAST**... trên Linux mà vẫn muốn máy nhẹ nhàng.
+Đặc biệt phù hợp cho ai cần chạy các phần mềm Windows-only như **UltraViewer, TeamViewer, AnyDesk, các app, phần mềm kế toán MISA/FAST**... trên Linux mà vẫn muốn máy nhẹ nhàng.
 
 ---
 
@@ -96,7 +96,7 @@ Toàn bộ menu, thông báo, hướng dẫn đều bằng tiếng Việt - dễ
 
 ## 🎯 Dành cho ai?
 
-✅ **Người dùng Linux Mint cần chạy app Windows-only** (UltraViewer, MISA, FAST Accounting, Internet Banking, game cũ...)
+✅ **Người dùng Linux Mint cần chạy app Windows-only** (UltraViewer, MISA, FAST Accounting, Internet, game cũ...)
 ✅ **Lập trình viên cần test app trên Windows** mà không muốn dual-boot
 ✅ **Người mới học Linux** muốn giữ một "góc Windows" để dùng khi cần
 ✅ **Sysadmin muốn chạy Windows Server** trong container để test
@@ -129,7 +129,7 @@ egrep -c '(vmx|svm)' /proc/cpuinfo
 ### Cách 1: Clone repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/win-docker-manager.git
+git clone https://github.com/webdep24h/win-docker-manager.git
 cd win-docker-manager
 chmod +x win-docker-manager.sh
 ./win-docker-manager.sh
@@ -138,7 +138,7 @@ chmod +x win-docker-manager.sh
 ### Cách 2: Tải trực tiếp file script
 
 ```bash
-wget https://raw.githubusercontent.com/YOUR_USERNAME/win-docker-manager/main/win-docker-manager.sh
+wget https://raw.githubusercontent.com/webdep24h/win-docker-manager/refs/heads/main/win-docker-manager.sh
 chmod +x win-docker-manager.sh
 ./win-docker-manager.sh
 ```
@@ -146,7 +146,7 @@ chmod +x win-docker-manager.sh
 ### Cách 3: Chạy luôn (one-liner)
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/win-docker-manager/main/win-docker-manager.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/webdep24h/win-docker-manager/refs/heads/main/win-docker-manager.sh)
 ```
 
 > ⚠ **Lưu ý**: KHÔNG chạy bằng `sudo`. Script sẽ tự xin quyền sudo khi cần.
@@ -470,8 +470,8 @@ Nếu script hữu ích, hãy ⭐ **star repo** và chia sẻ cho bạn bè nhé
 
 ## 📞 Liên hệ
 
-- 🐛 **Báo lỗi**: [GitHub Issues](https://github.com/YOUR_USERNAME/win-docker-manager/issues)
-- 💬 **Thảo luận**: [GitHub Discussions](https://github.com/YOUR_USERNAME/win-docker-manager/discussions)
+- 🐛 **Báo lỗi**: [GitHub Issues](https://github.com/webdep24h/win-docker-manager/issues)
+- 💬 **Thảo luận**: [GitHub Discussions](https://github.com/webdep24h/win-docker-manager/discussions)
 
 ---
 
