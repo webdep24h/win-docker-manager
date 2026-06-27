@@ -97,10 +97,15 @@ Toàn bộ menu, thông báo, hướng dẫn đều bằng tiếng Việt - dễ
 ## 🎯 Dành cho ai?
 
 ✅ **Người dùng Linux Mint cần chạy app Windows-only** (UltraViewer, MISA, FAST Accounting, Internet, game cũ...)
+
 ✅ **Lập trình viên cần test app trên Windows** mà không muốn dual-boot
+
 ✅ **Người mới học Linux** muốn giữ một "góc Windows" để dùng khi cần
+
 ✅ **Sysadmin muốn chạy Windows Server** trong container để test
+
 ✅ **Người dùng máy yếu** (RAM 4-8GB) - script tối ưu siêu nhẹ
+
 ✅ **Người ghét VirtualBox/VMware** vì nặng, khởi động chậm, ngốn RAM ngầm
 
 ---
